@@ -101,7 +101,15 @@
     width: 335px;
     height: 175px;
 }
-
+.item1 {
+    width: 100%;
+    object-fit: cover;
+    height: 176px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
     .item1 {
         grid-column: 1/8;
         /* width: 573px;
@@ -145,18 +153,92 @@
       }
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* =============================
+        SERVICES_SECTION
+================================*/
+.shared-section-title >h1{
+    text-align: center;
+    font-size: 20px;
     
+    }
+    .shared-section-title>p{
+font-size: 14px;
+font-weight: 400;
+line-height: 24px; 
+}
+.service-top-card{
+
+    flex-direction: column;
+}
+
+
+.service-card1{
+    width: 335px;
+height: 289px;
+}
+
+.service-card1>img{
+    width: 48px;
+height: 48px;
+}
+.service-card1>h1{
+    font-size: 20px;
+}
+.service-card1>p{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+/* =============================
+        SERVICES_SECTION
+================================*/
+.discount-img-section {
+    width: 335px;
+    height: 500px;
+    margin: 24px auto;
+}
+
+
+.discount-card {
+    width: 303px;
+    height: 297px;
+    margin: 0 auto;
+    padding: 24px;
+}
+.discount-text>p {
+    font-size: 14px;
+    line-height: 21px;
+    width: 254px;
+}
+.discount-text>h1 {
+    font-size: 20px;
+    margin: 5px 0;
+}
+.discount-text>h2 {
+    font-size: 16px;
+}
+.shared-btn {
+    width: 130px;
+    height: 40px;
+    font-size: 14px;
+}
+.discount-btn{
+margin: 20px 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 }
 @media screen and (max-width:375px){
     .container {

@@ -52,6 +52,8 @@ font-size: 16px;
 font-weight: 400;
 line-height: 26px; 
 margin: 20px 0;/* 162.5% */
+/* width: 643px;
+margin: 0 auto; */
 }
 /* =============================
          HEADER_SECTION
@@ -118,13 +120,15 @@ nav > ul > li > a {
 .banner-item > h1 {
   font-size: 64px;
   font-weight: 800;
-  width: 596px;
+  /* width: 596px; */
+  margin: 0 auto;
 }
 .banner-item > p {
   width: 676px;
   font-size: 16px;
   font-weight: 400;
   margin: 40px 0;
+  margin: 14px auto;
 }
 .banner-input {
   border-radius: 8px;
@@ -213,13 +217,13 @@ width: 540px;
   grid-column: 1/5;
   /* width: 573px;
 height: 300px; */
+
 }
 
 .item2 {grid-column: 5/8;
   /* width: 573px;
   height: 300px; */
 }
-
 .item3 {grid-column: 1/3;
   /* width: 374px;
   height: 286px; */
@@ -248,12 +252,24 @@ height: 300px; */
   /* width: 673px;
 height: 300px; */
 }
-.item1>img {
+/* .item1>img {
     width: 100%;
     height: 100%;
     object-fit: contain;
-}
+} */
 
+.item1{
+  background-image: url("../img/Rectangle\ 5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+ object-fit: cover;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: #fff;
+
+}
 .item2>img {
     width: 100%;
     height: 100%;
@@ -270,58 +286,137 @@ height: 300px; */
   height: 100%;
   object-fit: cover;
 }
-
-/* img {}
-
-.item4>img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.item5>img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-.item6>img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.item7>img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-} */
 /* =============================
          SERVICe_SECTION
 ================================*/
+.service-section{
+  margin-top: 24px;
+}
 .service-top-card{
   display: flex;
   justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 24px;
 
 }
 .service-card1{
 
   background: rgba(251, 181, 99, 0.05);
+  width: 573px;
+  height: 284px;
+  padding: 32px;
+  border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+ 
+}
+.service-card1>img{
+  max-width: 64px;
+  height: 64px;
+}
+.service-card1>h1{
+  color: var(--black);
+font-size: 24px;
+margin: 22px 0;
 }
 .service-card2{
-
+  border: 1px solid rgba(41, 206, 246, 0.20);
   background: rgba(41, 206, 246, 0.05);
-
-
-
 }
 .service-card3{
-
+  border: 1px solid rgba(233, 68, 68, 0.20);
   background: rgba(233, 68, 68, 0.05);
+}
+ .service-bottom-card .service-card1  {
+
+   margin: 0 auto;
+} 
+/* =============================
+         DISCOUNT_SECTION
+================================*/
+.discount-section{
+  margin-top: 46px;
 
 }
-.service-bottom-card{
-  width: 573px;
-height: 284px;
-  margin: 0 auto;
+.discount-img-section{
+  background-image: url(../img/Group\ 39.png);
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 24px;
+  margin-top: 46px;
+}
+.discount-card {
+  width: 579px;
+  height: 389px;
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+  margin-right: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+.discount-icon {
+  display: flex;
+  gap: 59px;
+}
+.shared-icon {
+  width: 24px;
+  height: 24px;
+  color: var(--orange);
+}
+.shared-icon-text{
+  font-size: 14px;
+  color: #5A5A5D;
+}
+/* .discount-icon>i>span{
+  color: var(--text);
+} */
+.discount-text>i{
+width: 24px;
+height: 24px;
+color: #ff5400;
+}
+.discount-text>{
+  color: #5A5A5D;
+  font-size: 16px;
+
+}
+.discount-text>h1{
+  color: #131318;
+font-size: 24px;
+font-weight: 800;
+margin: 16px 0;
+}
+
+.discount-text>p{
+  color: #5A5A5D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+
+}
+.discount-text>h2{
+  color: var(--orange);
+  font-size: 20px;
+  font-weight: 800;
+  margin: 16px 0;
+}
+.discount-img-section2 {
+
+  background-image: url(../img/Group\ 39.png);
+  justify-content: start;
+ 
+}
+.discount-card2 {
+
+  margin-left: 56px;
+}
+.discount-btn{
+  text-align: center;
 }
