@@ -303,6 +303,22 @@ width: 100%;
 /* =============================
         FOOTER_SECTION
 ================================*/
+.footer-section.container {
+    height: 302px;
+    margin-top: 54px;
+}
+.footer-item {
+    text-align: center;
+    margin-top: 11px;
+}
+.footer-icon>i {
+    font-size: 36px;
+    margin: 0px 16px;
+}
+.footer-item>p {
+    margin: 42px 
+}
+
 }
 @media screen and (max-width:375px){
     .container {

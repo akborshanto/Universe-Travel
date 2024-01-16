@@ -524,4 +524,31 @@ color: rgba(255, 255, 255, 0.678)
   font-weight: 800;
 
 }
+/* =============================
+       FOOTERSECTION
+================================*/
+footer{
+  background: rgba(19, 19, 24, 0.05);
+}
+.footer-section.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 502px;
+  margin-top: 54px;
+}
+.footer-item {
+  text-align: center;
+  margin-top: 34px;
+}
 
+.footer-item>p{
+
+  margin: 70px 0;
+}
+.footer-icon>i {
+  color: #131318;
+  font-size: 36px;
+  margin: 0 36px;
+}
