@@ -420,3 +420,108 @@ margin: 16px 0;
 .discount-btn{
   text-align: center;
 }
+/* =============================
+         PLACE_SECTION_SECTION
+================================*/
+.place-text>h1 {
+  margin-bottom: 30px;
+}
+.place-text>p {
+  margin: 10px 0;
+}
+.place-text>ul {
+  padding: 13px;
+  margin: 4px 0;
+}
+.place-text>ul>li {
+color: var(--black);
+  margin: 23px 0;
+}
+.place-video>iframe{
+  width: 610px;
+height: 424px;
+border-radius: 16px;
+background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%)
+
+}
+/* =============================
+         CONTACT_SECTION_SECTION
+================================*/
+.contact-form {
+  width: 474px;
+  height: 422px;
+  border-radius: 16px;
+  border: 1px solid #FF5400;
+
+}
+
+.contact-img{
+  border-radius: 16px;
+background: url("../img/Rectangle 8 (1).png"), lightgray 50% / cover no-repeat;
+width: 672px;
+
+height: 422px;
+display: flex;
+justify-content: end;
+align-items: end;
+position: relative;
+
+}
+.contact-form {
+  padding: 40px;
+}
+.contact-form  h1{
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.contact-form  p{
+  color: #5A5A5D;
+  margin-bottom: 46px;
+  font-size: 16px;
+  font-weight: 400;}
+.contact-form >form >input{
+  padding: 16px;
+  width: 393px;
+height: 52px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  color: rgba(19, 19, 24, 0.30);
+font-weight: 400;
+  border: none;
+  outline: none;
+  margin-bottom: 20px ;
+}
+.parcent-text{
+  color: #fff;
+  border-radius: 16px;
+  background: #FF5400;
+  width: 308px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 48px;
+  right: 11px
+}
+
+.parcent-text >h3{
+color: rgba(255, 255, 255, 0.678)
+
+;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 6px;
+ 
+
+}
+.parcent-text >h2{
+  font-size: 32px;
+  font-weight: 800;
+
+}
+

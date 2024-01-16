@@ -227,18 +227,82 @@ height: 48px;
 margin: 20px 0;
 
 }
+/* =============================
+         PLACE_SECTION_SECTION
+================================*/
+.place-video>iframe {
+    width: 335px;
+    height: 200px;
+margin-top: 24px;
+}
+.place-btn{
+    margin-bottom: 10px;
+}
+/* =============================
+         PLACE_SECTION_SECTION
+================================*/
+.contact-form {
+    width: 335px;
+    height: 353px;
+    padding: 23px;}
+.contact-form >p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+.contact-form >form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.contact-form >form >input{
+    width: 288px;
+height: 52px;
+margin-bottom: 17px;
+}
 
 
 
+.contact-img{
+    width: 335px;
+height: 300px;
+margin-top: 24px;
+}
+.parcent-text {
+    width: 214.023px;
+    height: 79.268px;
+}
+
+.contact-btn{
+display: block;
+width: 100%;
+}
+.parcent-text {
+    bottom: 32px;
+    right: 5px;
+    padding: 10px;
 
 
+}
 
+.parcent-text >h3 {
+    color: rgba(255, 255, 255, 0.678);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+.parcent-text>h1 {
 
+    font-size: 20px;
+}
 
-
-
-
-
+/* =============================
+        FOOTER_SECTION
+================================*/
 }
 @media screen and (max-width:375px){
     .container {
