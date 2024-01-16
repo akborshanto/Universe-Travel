@@ -50,5 +50,134 @@
         gap: 18px;
     }
 
+/* =============================
+         TOURS_SECTION
+================================*/
+
+    .tours-container {
+        flex-direction: column;
+        margin-top: 24px;
+        align-items: center;
+    }
+
+    .tours-text {
+        width: 335px;
+    }
+    .tours-text>h1 {
+        font-size: 20px;
+    }
+    .tours-text>p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-top: 24px;
+        margin-bottom: 23px;
+    }
+    .tours-text>ul {
+        padding: 12px 17px;
+        margin: -16px 0;
+    }
+    .tours-text>ul>li{
+        margin: 10px 0;
+        font-size: 14px;
+    }
+
+    
+    .tours-img>img {
+        width: 335px;
+        margin-top: 37px;
+    }
+
+
+
+/* =============================
+         DESTINATION_SECTION
+================================*/
+.grid-container{
+    margin: 0 auto;
+    text-align: center;
+}
+.grid-container >div>img{
+    width: 335px;
+    height: 175px;
+}
+
+    .item1 {
+        grid-column: 1/8;
+        /* width: 573px;
+      height: 300px; */
+      }
+      
+      .item2 {
+        grid-column: 1/8;
+        /* width: 573px;
+        height: 300px; */
+      }
+      
+      .item3 {
+        grid-column: 1/8;
+        /* width: 374px;
+        height: 286px; */
+      }
+      
+      .item4 {
+        grid-column: 1/8;
+        /* width: 474px;
+        height: 286px; */
+      }
+      
+      .item5 {
+        grid-column: 1/8;
+        /* width: 274px;
+        height: 286px; */
+      }
+      
+      .item6 {
+        grid-column: 1/8;
+        /* width: 473px;
+      height: 300px; */
+      }
+      
+      .item7 {
+        grid-column: 1/8;
+        /* width: 673px;
+      height: 300px; */
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 }
+@media screen and (max-width:375px){
+    .container {
+        padding: 0 15px;
+    }
+
+}
+
+@media screen and (max-width:325px){
+    .container {
+        padding: 0 15px;
+    }
+    .grid-container{
+        text-align: center;
+    }
+    .grid-container >div>img{
+        width: 247px;
+        height: 175px;
+    }
+
+
+
+}
+
