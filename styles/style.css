@@ -1,3 +1,135 @@
+/* gogle-font */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;0,600;0,900;0,1000;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+:root {
+  --orange: #ff5400;
+  --black: #131318;
+  --text: rgba(19, 19, 24, 0.7);
+  --white: #fff;
+}
+.shared-btn {
+  background-color: var(--orange);
+  border-radius: 8px;
+  width: 174px;
+  height: 52px;
+  border: none;
+  color: var(--white);
+  font-weight: 700;
+  font-size: 16px;
+}
 /* =============================
          HEADER_SECTION
 ================================*/
+header {
+  margin-top: 53px;
+}
+.navbar-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-logo > h1 {
+  color: var(--black);
+}
+.travel-span {
+  color: var(--orange);
+  color: #ff5400;
+  font-size: 36px;
+  font-weight: 800;
+}
+.navbar > nav > ul {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  gap: 44px;
+}
+.navbar > nav > ul > li {
+  list-style: none;
+}
+/* #menu-icon {
+  display: hidden;
+} */
+.active {
+  color: var(--orange);
+}
+nav > ul > li > a {
+  color: var(--black);
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 700;
+}
+/* =============================
+         BANNER_SECTION
+================================*/
+.banner-section {
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../img/Group 39.png");
+  width: 100%;
+  height: 500px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: var(--white);
+}
+.banner-item > h1 {
+  font-size: 64px;
+  font-weight: 800;
+  width: 596px;
+}
+.banner-item > p {
+  width: 676px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 40px 0;
+}
+.banner-input {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  width: 868px;
+  /* height: 52px; */
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  align-items: center;
+}
+.input-item {
+  width: 174px;
+  height: 52px;
+  /* padding: 15px; */
+  margin-right: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  outline: none;
+  border: navajowhite;
+  padding: 0 13px;
+}
+.search-btn {
+  width: 24px;
+  height: 24px;
+}
