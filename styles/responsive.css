@@ -2,12 +2,29 @@
     .container {
         padding: 0 33px;
     }
+
+    .shared-section-title >p {
+        width: 288px;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+
+
+
+
     .navbar-section {
         flex-direction: column;
     }
     .navbar{
         display: none;
     }
+
+
+
 
     .navbar-logo > h1 {
         margin-bottom: 20px;
@@ -38,6 +55,7 @@
 
 /* input */
 .banner-input {
+    
     width: 280px;
     /* height: 52px; */
     padding: 24px;
@@ -49,6 +67,28 @@
         flex-direction: column;
         gap: 18px;
     }
+
+
+    .banner-input >form>input {
+        width: 280px;
+        height: 52px;
+    }
+    .banner-input >form>select {
+        width: 280px;
+        height: 52px;
+    }
+    .banner-btn>button{
+        width: 280px;
+        height: 52px;
+    }
+    .shared-btn.banner-btn {
+        width: 255px;
+        height: 52px;
+    }
+    /* .banner-input >form>select {
+        width: 280px;
+        height: 52px;
+    } */
 
 /* =============================
          TOURS_SECTION
@@ -101,8 +141,37 @@
     width: 335px;
     height: 175px;
 }
+.item1{
+    width: 335px;
+    height: 175px;
+}
+.item2{
+    width: 335px;
+    height: 175px;
+}
+.item3{
+    width: 335px;
+    height: 175px;
+}
+.item4{
+    width: 335px;
+    height: 175px;
+}
+.item5{
+    width: 335px;
+    height: 175px;
+}
+.item6{
+    width: 335px;
+    height: 175px;
+}
+.item7{
+    width: 335px;
+    height: 175px;
+}
+
 .item1 {
-    width: 100%;
+    width: 335px;
     object-fit: cover;
     height: 176px;
     display: flex;
@@ -166,6 +235,7 @@ font-size: 14px;
 font-weight: 400;
 line-height: 24px; 
 }
+
 .service-top-card{
 
     flex-direction: column;
@@ -226,6 +296,16 @@ height: 48px;
 .discount-btn{
 margin: 20px 0;
 
+}
+.discount-icon>i>span {
+    color: #131318;
+    padding: 0 10px;
+    font-size: 12px;
+}
+.discount-icon {
+    display: flex;
+    gap: 9px;
+    flex-direction: column;
 }
 /* =============================
          PLACE_SECTION_SECTION
@@ -299,7 +379,32 @@ width: 100%;
 
     font-size: 20px;
 }
+/* =============================
+        BONSU_SECTION
+================================*/
+.bonus-style>h1{
+    font-size: 24px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+.card {
+    margin-top: 10px;
+}
+.bonus-style> h1 {
+    margin-bottom: 2px;
+}
 
+.bonus-style {
+    color: #ff5400;
+    font-size: 24px;
+   
+}
 /* =============================
         FOOTER_SECTION
 ================================*/
@@ -318,6 +423,15 @@ width: 100%;
 .footer-item>p {
     margin: 42px 
 }
+
+.horizontal{
+
+    width: 200px;
+    margin: 22px auto;
+    
+    
+    }
+
 
 }
 @media screen and (max-width:375px){
@@ -342,4 +456,11 @@ width: 100%;
 
 
 }
+@media screen and (max-width:900px){
 
+
+
+
+
+
+}
