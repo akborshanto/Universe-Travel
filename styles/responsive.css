@@ -1,14 +1,12 @@
 @media screen and (max-width:600px) {
-    .container {
-        padding: 0 33px;
-    }
+  .container {
+      padding: 0 33px;
+  }
 
-    .shared-section-title >p {
-        width: 288px;
-        margin-bottom: 20px;
-    }
-
-
+  .shared-section-title >p {
+      width: 288px;
+      margin-bottom: 20px;
+  }
 
 
 
@@ -16,221 +14,223 @@
 
 
 
-    .navbar-section {
-        flex-direction: column;
-    }
-    .navbar{
-        display: none;
-    }
+
+
+  .navbar-section {
+      flex-direction: column;
+  }
+  .navbar{
+      display: none;
+  }
 
 
 
 
-    .navbar-logo > h1 {
-        margin-bottom: 20px;
-    }
+  .navbar-logo > h1 {
+      margin-bottom: 20px;
+  }
 /* --------------banner-section */
 
 .banner-item>h1{
-    font-size: 22px;
-    margin: 0 auto;
-    width: 222px;
-    margin: 0 auto;
+  font-size: 22px;
+  margin: 0 auto;
+  width: 222px;
+  margin: 0 auto;
 }
 
 .banner-item>p{
-    font-size: 14px;
-    line-height: 21px;
-    width: 304px;
-    margin: 26px auto;
-    
+  font-size: 14px;
+  line-height: 21px;
+  width: 304px;
+  margin: 26px auto;
+  
 }
 
 
 .banner-section {
 
-    text-align: center;
-    margin: 0 auto;
+  text-align: center;
+  margin: 0 auto;
 }
 
 /* input */
 .banner-input {
-    
-    width: 280px;
-    /* height: 52px; */
-    padding: 24px;
-    margin: 0 auto;}
+  
+  width: 280px;
+  /* height: 52px; */
+  padding: 24px;
+  margin: 0 auto;}
 
-    form {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        gap: 18px;
-    }
+  form {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 18px;
+  }
 
 
-    .banner-input >form>input {
-        width: 280px;
-        height: 52px;
-    }
-    .banner-input >form>select {
-        width: 280px;
-        height: 52px;
-    }
-    .banner-btn>button{
-        width: 280px;
-        height: 52px;
-    }
-    .shared-btn.banner-btn {
-        width: 255px;
-        height: 52px;
-    }
-    /* .banner-input >form>select {
-        width: 280px;
-        height: 52px;
-    } */
+  .banner-input >form>input {
+      width: 280px;
+      height: 52px;
+  }
+  .banner-input >form>select {
+      width: 280px;
+      height: 52px;
+  }
+  .banner-btn>button{
+      width: 280px;
+      height: 52px;
+  }
+  .shared-btn.banner-btn {
+      width: 255px;
+      height: 52px;
+  }
+  /* .banner-input >form>select {
+      width: 280px;
+      height: 52px;
+  } */
 
 /* =============================
-         TOURS_SECTION
+       TOURS_SECTION
 ================================*/
 
-    .tours-container {
-        flex-direction: column;
-        margin-top: 24px;
-        align-items: center;
-    }
+  .tours-container {
+      flex-direction: column;
+      margin-top: 24px;
+      align-items: center;
+  }
 
-    .tours-text {
-        width: 335px;
-    }
-    .tours-text>h1 {
-        font-size: 20px;
-    }
-    .tours-text>p {
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 24px;
-        margin-top: 24px;
-        margin-bottom: 23px;
-    }
-    .tours-text>ul {
-        padding: 12px 17px;
-        margin: -16px 0;
-    }
-    .tours-text>ul>li{
-        margin: 10px 0;
-        font-size: 14px;
-    }
+  .tours-text {
+      width: 335px;
+  }
+  .tours-text>h1 {
+      font-size: 20px;
+  }
+  .tours-text>p {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      margin-top: 24px;
+      margin-bottom: 23px;
+  }
+  .tours-text>ul {
+      padding: 12px 17px;
+      margin: -16px 0;
+  }
+  .tours-text>ul>li{
+      margin: 10px 0;
+      font-size: 14px;
+  }
 
-    
-    .tours-img>img {
-        width: 335px;
-        margin-top: 37px;
-    }
+  
+  .tours-img>img {
+      width: 335px;
+      margin-top: 37px;
+  }
 
 
 
 /* =============================
-         DESTINATION_SECTION
+       DESTINATION_SECTION
 ================================*/
 .grid-container{
-    margin: 0 auto;
-    text-align: center;
+  margin: 0 auto;
+  text-align: center;
 }
 .grid-container >div>img{
-    width: 335px;
-    height: 175px;
+  width: 335px;
+  height: 175px;
 }
 .item1{
-    width: 335px;
-    height: 175px;
+  width: 335px;
+  height: 175px;
 }
 .item2{
-    width: 335px;
-    height: 175px;
+  width: 335px;
+  height: 175px;
 }
 .item3{
-    width: 335px;
-    height: 175px;
+  width: 335px;
+  height: 175px;
 }
 .item4{
-    width: 335px;
-    height: 175px;
+  width: 335px;
+  height: 175px;
 }
 .item5{
-    width: 335px;
-    height: 175px;
+  width: 335px;
+  height: 175px;
 }
 .item6{
-    width: 335px;
-    height: 175px;
+  width: 335px;
+  height: 175px;
 }
 .item7{
-    width: 335px;
-    height: 175px;
+  width: 335px;
+  height: 175px;
 }
 
 .item1 {
-    width: 335px;
-    object-fit: cover;
-    height: 176px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
+  width: 335px;
+  object-fit: cover;
+  height: 176px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }
-    .item1 {
-        grid-column: 1/8;
-        /* width: 573px;
+  .item1 {
+      grid-column: 1/8;
+      /* width: 573px;
+    height: 300px; */
+    }
+    
+    .item2 {
+      grid-column: 1/8;
+      /* width: 573px;
       height: 300px; */
-      }
-      
-      .item2 {
-        grid-column: 1/8;
-        /* width: 573px;
-        height: 300px; */
-      }
-      
-      .item3 {
-        grid-column: 1/8;
-        /* width: 374px;
-        height: 286px; */
-      }
-      
-      .item4 {
-        grid-column: 1/8;
-        /* width: 474px;
-        height: 286px; */
-      }
-      
-      .item5 {
-        grid-column: 1/8;
-        /* width: 274px;
-        height: 286px; */
-      }
-      
-      .item6 {
-        grid-column: 1/8;
-        /* width: 473px;
-      height: 300px; */
-      }
-      
-      .item7 {
-        grid-column: 1/8;
-        /* width: 673px;
-      height: 300px; */
-      }
+    }
+    
+    .item3 {
+      grid-column: 1/8;
+      /* width: 374px;
+      height: 286px; */
+    }
+    
+    .item4 {
+      grid-column: 1/8;
+      /* width: 474px;
+      height: 286px; */
+    }
+    
+    .item5 {
+      grid-column: 1/8;
+      /* width: 274px;
+      height: 286px; */
+    }
+    
+    .item6 {
+      grid-column: 1/8;
+      /* width: 473px;
+    height: 300px; */
+    }
+    
+    .item7 {
+      grid-column: 1/8;
+      /* width: 673px;
+    height: 300px; */
+    }
 
 
 /* =============================
-        SERVICES_SECTION
+      SERVICES_SECTION
 ================================*/
 .shared-section-title >h1{
-    text-align: center;
-    font-size: 20px;
-    
-    }
-    .shared-section-title>p{
+  text-align: center;
+  font-size: 20px;
+  
+  }
+  .shared-section-title>p{
 font-size: 14px;
 font-weight: 400;
 line-height: 24px; 
@@ -238,109 +238,110 @@ line-height: 24px;
 
 .service-top-card{
 
-    flex-direction: column;
+  flex-direction: column;
 }
 
 
 .service-card1{
-    width: 335px;
+  width: 335px;
 height: 289px;
+margin: 0 auto ;
 }
 
 .service-card1>img{
-    width: 48px;
+  width: 48px;
 height: 48px;
 }
 .service-card1>h1{
-    font-size: 20px;
+  font-size: 20px;
 }
 .service-card1>p{
-    font-size: 14px;
-    line-height: 24px;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 
 /* =============================
-        SERVICES_SECTION
+      SERVICES_SECTION
 ================================*/
 .discount-img-section {
-    width: 335px;
-    height: 500px;
-    margin: 24px auto;
+  width: 335px;
+  height: 500px;
+  margin: 24px auto;
 }
 
 
 .discount-card {
-    width: 303px;
-    height: 297px;
-    margin: 0 auto;
-    padding: 24px;
+  width: 303px;
+  height: 297px;
+  margin: 0 auto;
+  padding: 24px;
 }
 .discount-text>p {
-    font-size: 14px;
-    line-height: 21px;
-    width: 254px;
+  font-size: 14px;
+  line-height: 21px;
+  width: 254px;
 }
 .discount-text>h1 {
-    font-size: 20px;
-    margin: 5px 0;
+  font-size: 20px;
+  margin: 5px 0;
 }
 .discount-text>h2 {
-    font-size: 16px;
+  font-size: 16px;
 }
 .shared-btn {
-    width: 130px;
-    height: 40px;
-    font-size: 14px;
+  width: 130px;
+  height: 40px;
+  font-size: 14px;
 }
 .discount-btn{
 margin: 20px 0;
 
 }
 .discount-icon>i>span {
-    color: #131318;
-    padding: 0 10px;
-    font-size: 12px;
+  color: #131318;
+  padding: 0 10px;
+  font-size: 12px;
 }
 .discount-icon {
-    display: flex;
-    gap: 9px;
-    flex-direction: column;
+  display: flex;
+  gap: 9px;
+  flex-direction: column;
 }
 /* =============================
-         PLACE_SECTION_SECTION
+       PLACE_SECTION_SECTION
 ================================*/
 .place-video>iframe {
-    width: 335px;
-    height: 200px;
+  width: 335px;
+  height: 200px;
 margin-top: 24px;
 }
 .place-btn{
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 /* =============================
-         PLACE_SECTION_SECTION
+       PLACE_SECTION_SECTION
 ================================*/
 .contact-form {
-    width: 335px;
-    height: 353px;
-    padding: 23px;}
+  width: 335px;
+  height: 353px;
+  padding: 23px;}
 .contact-form >p {
-    color: #5A5A5D;
-    font-family: Mulish;
-    font-size: 14px;
-    font-weight: 400;
-    margin-bottom: 20px;
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 20px;
 
 }
 .contact-form >form {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
 }
 .contact-form >form >input{
-    width: 288px;
+  width: 288px;
 height: 52px;
 margin-bottom: 17px;
 }
@@ -348,13 +349,13 @@ margin-bottom: 17px;
 
 
 .contact-img{
-    width: 335px;
+  width: 335px;
 height: 300px;
 margin-top: 24px;
 }
 .parcent-text {
-    width: 214.023px;
-    height: 79.268px;
+  width: 214.023px;
+  height: 79.268px;
 }
 
 .contact-btn{
@@ -362,79 +363,562 @@ display: block;
 width: 100%;
 }
 .parcent-text {
-    bottom: 32px;
-    right: 5px;
-    padding: 10px;
+  bottom: 32px;
+  right: 5px;
+  padding: 10px;
 
 
 }
 
 .parcent-text >h3 {
-    color: rgba(255, 255, 255, 0.678);
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 6px;
+  color: rgba(255, 255, 255, 0.678);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 6px;
 }
 .parcent-text>h1 {
 
-    font-size: 20px;
+  font-size: 20px;
 }
 /* =============================
-        BONSU_SECTION
+      BONSU_SECTION
 ================================*/
 .bonus-style>h1{
-    font-size: 24px;
+  font-size: 24px;
 }
 .card-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 2px;
-    flex-direction: column;
-    margin: 0 auto;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 2px;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
 }
 .card {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 .bonus-style> h1 {
-    margin-bottom: 2px;
+  margin-bottom: 2px;
 }
 
 .bonus-style {
-    color: #ff5400;
-    font-size: 24px;
-   
+  color: #ff5400;
+  font-size: 24px;
+ 
 }
 /* =============================
-        FOOTER_SECTION
+      FOOTER_SECTION
 ================================*/
 .footer-section.container {
-    height: 302px;
-    margin-top: 54px;
+  height: 302px;
+  margin-top: 54px;
 }
 .footer-item {
-    text-align: center;
-    margin-top: 11px;
+  text-align: center;
+  margin-top: 11px;
 }
 .footer-icon>i {
-    font-size: 36px;
-    margin: 0px 16px;
+  font-size: 36px;
+  margin: 0px 16px;
 }
 .footer-item>p {
-    margin: 42px 
+  margin: 42px 
 }
 
 .horizontal{
 
-    width: 200px;
-    margin: 22px auto;
-    
-    
-    }
+  width: 200px;
+  margin: 22px auto;
+  
+  
+  }
 
 
 }
 @media screen and (max-width:375px){
+  .container {
+      padding: 0 15px;
+  }
+
+}
+
+@media screen and (max-width:325px){
+  .container {
+      padding: 0 15px;
+  }
+  .grid-container{
+      text-align: center;
+  }
+  .grid-container >div>img{
+      width: 247px;
+      height: 175px;
+  }
+
+
+
+}
+@media screen and (max-width:900px){
+
+
+
+
+
+
+}
+ 
+ @media screen and (min-width: 990px) and (max-width: 1024px) {
+    /* navabar */
+    .navbar-section {
+      justify-content: space-around;
+    }
+    .navbar-logo {
+      gap: 7px;
+    }
+    .navbar-logo > img {
+      width: 45px;
+      height: 55px;
+    }
+    .travel-span {
+      font-size: 30px;
+    }
+    .travel-span {
+      font-size: 30px;
+    }
+    .banner-section {
+      width: 91%;
+      margin: 20px auto;
+    }
+    /* tour-section */
+    .tours-container {
+      justify-content: space-around;
+    }
+    .tours-text {
+      width: 400px;
+    }
+    .tours-img > img {
+      width: 400px;
+    }
+    .shared-section-title > p {
+      width: 556px;
+    }
+    /* destination-section */
+    .grid-container {
+      padding: 0 42px;
+    }
+    /* Choseus-section */
+    .service-container {
+      margin-top: 47px;
+    }
+    .service-top-card {
+      display: flex;
+      justify-content: space-around;
+      gap: 0px;
+      margin-bottom: 24px;
+    }
+    .service-card1 {
+      width: 400px;
+    }
+  
+    /* discount-section */
+    .discount-img-section {
+      width: 91%;
+      margin: 40px auto;
+    }
+    .discount-card {
+      width: 557px;
+      height: 356px;
+    }
+  
+    /* place-sectoin */
+    .place-text > h1 {
+      margin-bottom: 12px;
+    }
+  
+    .tours-text > h1 {
+      font-size: 29px;
+    }
+    .place-text > ul > li {
+      color: var(--black);
+      margin: 8px 0;
+    }
+  
+    .video {
+      width: 420px;
+      height: 400px;
+    }
+    .video-title {
+      position: relative;
+      top: 47%;
+      left: 8%;
+      color: white;
+      /* position: fixed; */
+      padding: 20px;
+    }
+    /* contaact */
+    .contact-form {
+      width: 400px;
+      height: 422px;
+    }
+    .contact-img > img {
+      width: 400px;
+      height: 422px;
+    }
+    .contact-img {
+      width: 400px;
+      height: 422px;
+    }
+  
+    .parcent-text {
+      width: 271px;
+      height: 102px;
+    }
+    /* card-section*/
+    .card {
+      width: 220px;
+      background: rgb(241, 241, 241);
+      color: white;
+      padding: 15px;
+      text-align: center;
+      transition: 1.5s;
+      margin-top: 29px;
+    }
+    .card > img {
+      width: 154px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    .card-title > h5 {
+      font-size: 14px;
+      color: #131318;
+      margin-bottom: 20px;
+    }
+    .card-title > h1 {
+      font-size: 20px;
+      color: #ff5400;
+    }
+  
+    /* footer */
+    .footer-section.container {
+      height: 566px;
+      margin-top: 59px;
+    }
+  
+    .footer-item {
+      margin-top: 6px;
+    }
+  
+    .footer-item > p {
+      margin: 30px 0;
+    }
+  }
+  @media screen and (min-width: 1024px) and (max-width: 1169px) {
+    .video-title {
+      font-size: 18px;
+      position: relative;
+      top: 50%;
+      left: 8%;
+      color: white;
+      /* position: fixed; */
+    }
+    /* navabar */
+    .navbar-section {
+      justify-content: space-around;
+    }
+    .navbar-logo {
+      gap: 7px;
+    }
+    .navbar-logo > img {
+      width: 45px;
+      height: 55px;
+    }
+    .travel-span {
+      font-size: 30px;
+    }
+    .travel-span {
+      font-size: 30px;
+    }
+    .banner-section {
+      width: 91%;
+      margin: 20px auto;
+    }
+    /* tour-section */
+    .tours-container {
+      justify-content: space-around;
+    }
+    .tours-text {
+      width: 400px;
+    }
+    .tours-img > img {
+      width: 400px;
+    }
+    .shared-section-title > p {
+      width: 556px;
+    }
+    /* destination-section */
+    .grid-container {
+      padding: 0 42px;
+    }
+    /* Choseus-section */
+    .service-container {
+      margin-top: 47px;
+    }
+    .service-top-card {
+      display: flex;
+      justify-content: space-around;
+      gap: 0px;
+      margin-bottom: 24px;
+    }
+    .service-card1 {
+      width: 400px;
+    }
+  
+    /* discount-section */
+    .discount-img-section {
+      width: 91%;
+      margin: 40px auto;
+    }
+    .discount-card {
+      width: 557px;
+      height: 356px;
+    }
+  
+    /* place-sectoin */
+    .place-text > h1 {
+      margin-bottom: 12px;
+    }
+  
+    .tours-text > h1 {
+      font-size: 29px;
+    }
+    .place-text > ul > li {
+      color: var(--black);
+      margin: 8px 0;
+    }
+  
+    .video {
+      width: 420px;
+      height: 400px;
+    }
+  
+    .video-title {
+      font-size: 25px;
+      position: relative;
+      top: 50%;
+      left: 8%;
+      color: white;
+      /* position: fixed; */
+    }
+    /* contaact */
+    .contact-form {
+      width: 400px;
+      height: 422px;
+    }
+    .contact-img > img {
+      width: 400px;
+      height: 422px;
+    }
+    .contact-img {
+      width: 400px;
+      height: 422px;
+    }
+  
+    .parcent-text {
+      width: 271px;
+      height: 102px;
+    }
+    /* card-section*/
+    .card {
+      width: 220px;
+      background: rgb(241, 241, 241);
+      color: white;
+      padding: 15px;
+      text-align: center;
+      transition: 1.5s;
+      margin-top: 29px;
+    }
+    .card > img {
+      width: 154px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    .card-title > h5 {
+      font-size: 14px;
+      color: #131318;
+      margin-bottom: 20px;
+    }
+    .card-title > h1 {
+      font-size: 20px;
+      color: #ff5400;
+    }
+  
+    /* footer */
+    .footer-section.container {
+      height: 566px;
+      margin-top: 59px;
+    }
+  
+    .footer-item {
+      margin-top: 6px;
+    }
+  
+    .footer-item > p {
+      margin: 30px 0;
+    }
+  }
+  @media screen and (min-width: 1100px) and (max-width: 1169px) {
+    /* navabar */
+    .navbar-section {
+      justify-content: space-around;
+    }
+    .navbar-logo {
+      gap: 7px;
+    }
+    .navbar-logo > img {
+      width: 45px;
+      height: 55px;
+    }
+    .travel-span {
+      font-size: 30px;
+    }
+    .travel-span {
+      font-size: 30px;
+    }
+    .banner-section {
+      width: 91%;
+      margin: 20px auto;
+    }
+    /* tour-section */
+    .tours-container {
+      justify-content: space-around;
+    }
+    .tours-text {
+      width: 400px;
+    }
+    .tours-img > img {
+      width: 400px;
+    }
+    .shared-section-title > p {
+      width: 556px;
+    }
+    /* destination-section */
+    .grid-container {
+      padding: 0 42px;
+    }
+    /* Choseus-section */
+    .service-container {
+      margin-top: 47px;
+    }
+    .service-top-card {
+      display: flex;
+      justify-content: space-around;
+      gap: 0px;
+      margin-bottom: 24px;
+    }
+    .service-card1 {
+      width: 400px;
+    }
+  
+    /* discount-section */
+    .discount-img-section {
+      width: 91%;
+      margin: 40px auto;
+    }
+    /* .discount-card {
+      width: 557px;
+      height: 356px;
+    } */
+  
+    /* place-sectoin */
+    .place-text > h1 {
+      margin-bottom: 12px;
+    }
+  
+    .tours-text > h1 {
+      font-size: 29px;
+    }
+    .place-text > ul > li {
+      color: var(--black);
+      margin: 8px 0;
+    }
+  
+    .video {
+      width: 420px;
+      height: 400px;
+    }
+    .video-title {
+      font-size: 25px;
+      position: relative;
+      top: 50%;
+      left: 8%;
+      color: white;
+      /* position: fixed; */
+    }
+  
+    /* contaact */
+    .contact-form {
+      width: 400px;
+      height: 422px;
+    }
+    .contact-img > img {
+      width: 400px;
+      height: 422px;
+    }
+    .contact-img {
+      width: 400px;
+      height: 422px;
+    }
+  
+    .parcent-text {
+      width: 271px;
+      height: 102px;
+    }
+    /* card-section*/
+    .card {
+      width: 220px;
+      background: rgb(241, 241, 241);
+      color: white;
+      padding: 15px;
+      text-align: center;
+      transition: 1.5s;
+      margin-top: 29px;
+    }
+    .card > img {
+      width: 154px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    .card-title > h5 {
+      font-size: 14px;
+      color: #131318;
+      margin-bottom: 20px;
+    }
+    .card-title > h1 {
+      font-size: 20px;
+      color: #ff5400;
+    }
+  
+    /* footer */
+    .footer-section.container {
+      height: 566px;
+      margin-top: 59px;
+    }
+  
+    .footer-item {
+      margin-top: 6px;
+    }
+  
+    .footer-item > p {
+      margin: 30px 0;
+    }
+  }
+  
+
+
+
+
+/* ================= */
+
+/* @media screen and (max-width:375px){
     .container {
         padding: 0 15px;
     }
@@ -455,12 +939,4 @@ width: 100%;
 
 
 
-}
-@media screen and (max-width:900px){
-
-
-
-
-
-
-}
+} */
