@@ -24,7 +24,8 @@ a {
   --black: #131318;
   --text: rgba(19, 19, 24, 0.7);
   --white: #fff;
-} /* shared... */
+}
+ /* shared..=============================. */
 .shared-btn {
   background-color: var(--orange);
   border-radius: 8px;
@@ -55,7 +56,22 @@ a {
   text-align: center;
   display: block;
   margin: 13px auto;
-  /* text-align: center; */
+}
+.shared-btn:hover{
+  background-color: #e45203;
+  transition: 2ms;
+  cursor: pointer;
+}
+nav>ul>li>a:hover{
+  color: rgb(233, 59, 28);
+  transition: 2s;
+
+}
+.active:hover{
+  color: black;
+}
+input:hover{
+  background-color:white;
 }
 /* =============================
          HEADER_SECTION
@@ -68,11 +84,21 @@ header {
   gap: 10px;
   justify-content: center;
 }
+.responsive-logo>h1 {
+  color: black;
+}
+.responsive-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#menu-icon{
+  display: none;
+}
 .navbar-logo > img {
   width: 47px;
   height: 58px;
 }
-
 .navbar-section {
   display: flex;
   justify-content: space-between;
@@ -97,9 +123,6 @@ header {
 .navbar > nav > ul > li {
   list-style: none;
 }
-/* #menu-icon {
-  display: hidden;
-} */
 .active {
   color: var(--orange);
 }
@@ -118,7 +141,7 @@ nav > ul > li > a {
       rgba(19, 19, 24, 0.8) 0%,
       rgba(19, 19, 24, 0) 100%
     ),
-    url("../img/Group 39.png");
+    url("../img/Group\ 13\ \(1\)\ \(1\).png");
   width: 100%;
   height: 500px;
   margin-top: 30px;
@@ -132,7 +155,6 @@ nav > ul > li > a {
 .banner-item > h1 {
   font-size: 64px;
   font-weight: 800;
-  /* width: 596px; */
   margin: 0 auto;
 }
 .banner-item > p {
@@ -154,10 +176,10 @@ nav > ul > li > a {
   align-items: center;
 }
 .input-item {
+  color: #5a5a5d;
   width: 174px;
   height: 52px;
-  /* padding: 15px; */
-  margin-right: 20px;
+    margin-right: 20px;
   box-sizing: border-box;
   border-radius: 8px;
   outline: none;
@@ -168,7 +190,6 @@ nav > ul > li > a {
   width: 24px;
   height: 24px;
 }
-
 /* =============================
          TOURS_SECTION
 ================================*/
@@ -180,7 +201,6 @@ nav > ul > li > a {
 .tours-text {
   width: 550px;
 }
-
 .tours-text > h1 {
   font-size: 40px;
   font-weight: 800;
@@ -209,7 +229,6 @@ nav > ul > li > a {
 .destination-section {
   margin-top: 50px;
 }
-
 .grid-container {
   margin-top: 46px;
   display: grid;
@@ -223,57 +242,35 @@ nav > ul > li > a {
 }
 .item1 {
   grid-column: 1/5;
-  /* width: 573px;
-height: 300px; */
 }
 
 .item2 {
   grid-column: 5/8;
-  /* width: 573px;
-  height: 300px; */
 }
 .item3 {
   grid-column: 1/3;
-  /* width: 374px;
-  height: 286px; */
 }
-
 .item4 {
   grid-column: 3/6;
-  /* width: 474px;
-  height: 286px; */
 }
-
 .item5 {
   grid-column: 6/8;
-  /* width: 274px;
-  height: 286px; */
 }
 
 .item6 {
   grid-column: 1/4;
-  /* width: 473px;
-height: 300px; */
 }
 
 .item7 {
   grid-column: 4/8;
-  /* width: 673px;
-height: 300px; */
 }
-/* .item1>img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-} */
-
 .item1 {
-  background-image: url("../img/Rectangle\ 5.png");
+  /* background-image: url("../img/Rectangle\ 5.png"); */
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url("../img/Rectangle\ 5.png");
+
   background-repeat: no-repeat;
   background-size: cover;
-  /* width: 573px; */
   height: 300px;
-
   object-fit: cover;
   display: flex;
   justify-content: center;
@@ -281,10 +278,10 @@ height: 300px; */
   color: #fff;
 }
 .item2 {
-  background-image: url("../img/Rectangle 8.png");
+
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url("../img/Rectangle 8.png");
   background-repeat: no-repeat;
   background-size: cover;
-  /* width: 573px; */
   height: 300px;
   object-fit: cover;
   display: flex;
@@ -293,10 +290,9 @@ height: 300px; */
   color: #fff;
 }
 .item3 {
-  background-image: url("../img/Rectangle 6.png");
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url("../img/Rectangle 6.png");
   background-repeat: no-repeat;
   background-size: cover;
-  /* width: 374px; */
   height: 286px;
   object-fit: cover;
   display: flex;
@@ -305,10 +301,9 @@ height: 300px; */
   color: #fff;
 }
 .item4 {
-  background-image: url("../img/Rectangle 7.png");
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url("../img/Rectangle 7.png");
   background-repeat: no-repeat;
   background-size: cover;
-  /* width: 474px; */
   height: 286px;
   object-fit: cover;
   display: flex;
@@ -317,10 +312,9 @@ height: 300px; */
   color: #fff;
 }
 .item5 {
-  background-image: url("../img/Rectangle 9.png");
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url("../img/Rectangle 9.png");
   background-repeat: no-repeat;
   background-size: cover;
-  /* width: 274px; */
   height: 286px;
   object-fit: cover;
   display: flex;
@@ -329,10 +323,9 @@ height: 300px; */
   color: #fff;
 }
 .item6 {
-  background-image: url("../img/Rectangle 11.png");
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url("../img/Rectangle 11.png");
   background-repeat: no-repeat;
   background-size: cover;
-  /* width: 473px; */
   height: 300px;
   object-fit: cover;
   display: flex;
@@ -341,10 +334,9 @@ height: 300px; */
   color: #fff;
 }
 .item7 {
-  background-image: url("../img/Rectangle 10.png");
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url("../img/Rectangle 10.png");
   background-repeat: no-repeat;
   background-size: cover;
-  /* width: 673px; */
   height: 300px;
   object-fit: cover;
   display: flex;
@@ -416,7 +408,7 @@ height: 300px; */
   margin-top: 46px;
 }
 .discount-img-section {
-  background-image: url(../img/Group\ 40.png);
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url(../img/Group\ 40.png) ;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -437,9 +429,15 @@ height: 300px; */
   margin-right: 56px;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   flex-direction: column;
   padding: 50px;
+}
+.discount-card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.discount-icon>i>span {
+  font-size: 10px;
+
 }
 .discount-icon {
   display: flex;
@@ -461,9 +459,6 @@ height: 300px; */
   font-size: 14px;
   color: #5a5a5d;
 }
-/* .discount-icon>i>span{
-  color: var(--text);
-} */
 .discount-text > i {
   width: 24px;
   height: 24px;
@@ -484,7 +479,7 @@ height: 300px; */
   color: #5a5a5d;
   font-size: 16px;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
 }
 .discount-text > h2 {
   color: var(--orange);
@@ -493,18 +488,21 @@ height: 300px; */
   margin: 16px 0;
 }
 .discount-img-section2 {
-  background-image: url(../img/hotel2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+
+  
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../img/hotel2.jpg) ;
+
+ background-repeat: no-repeat;
+  background-size: cover; 
   justify-content: start;
 }
 .discount-card2 {
   margin-left: 56px;
 }
 .discount-img-section3 {
-  background-image: url("../img/Group 39.png");
-}
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url("../img/Group 39.png") ;
 
+}
 .discount-btn {
   text-align: center;
 }
@@ -525,6 +523,18 @@ height: 300px; */
   color: var(--black);
   margin: 23px 0;
 }
+.place-video.tours-img {
+  position: relative;
+}
+.video-title {
+  position: absolute;
+  top: 35%;
+  left: 0%;
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+}
 .place-video > iframe {
   width: 610px;
   height: 424px;
@@ -544,12 +554,10 @@ height: 300px; */
   border-radius: 16px;
   border: 1px solid #ff5400;
 }
-
 .contact-img {
   border-radius: 16px;
   background: url("../img/Rectangle 8 (1).png"), lightgray 50% / cover no-repeat;
   width: 672px;
-
   height: 422px;
   display: flex;
   justify-content: end;
@@ -598,7 +606,6 @@ height: 300px; */
   bottom: 48px;
   right: 11px;
 }
-
 .parcent-text > h3 {
   color: rgba(255, 255, 255, 0.678);
   font-size: 24px;
@@ -609,20 +616,24 @@ height: 300px; */
   font-size: 32px;
   font-weight: 800;
 }
-
 /* =============================
        OPTIONAL-SECTION
 ================================*/
 .bonus-section {
   margin-top: 46px;
 }
-.card-container {
+/* .card-container {
   display: flex;
   justify-content: space-between;
   gap: 24px;
+} */
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
 .card {
-  width: 300px;
+  width: 284px;
   background: rgb(241, 241, 241);
   color: white;
   padding: 20px;
@@ -630,6 +641,15 @@ height: 300px; */
   transition: 1.5s;
   margin-top: 40px;
 }
+/* .card {
+  width: 300px;
+  background: rgb(241, 241, 241);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  transition: 1.5s;
+  margin-top: 40px;
+} */
 .card:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -638,7 +658,6 @@ height: 300px; */
   height: auto;
   margin-bottom: 20px;
 }
-
 .card-title > h5 {
   font-size: 16px;
   color: #131318;
@@ -648,7 +667,9 @@ height: 300px; */
   font-size: 20px;
   color: #ff5400;
 }
-
+.card-title > h1:hover{
+color: black;
+}
 /* =============================
        FOOTERSECTION
 ================================*/
@@ -678,9 +699,10 @@ footer {
   padding-bottom: 20px ;
 }
 .horizontal{
-
 width: 872px;
 margin: 0 auto;
+}
+.horizontal:hover{
 
-
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
