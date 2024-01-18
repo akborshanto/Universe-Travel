@@ -131,6 +131,8 @@ header {
 
 @media screen and (max-width:600px) {
 
+
+
 /* shared-section-title */
 .shared-section-title {
   width: 335px;
@@ -144,9 +146,19 @@ width: 335px;
   text-align: center;
 }
 
+
 button.shared-btn.tours-btn {
   width: 105px;
 }
+/* nav-upper-section */
+.nav-upper-container {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+
 /* navbar */
   .navbar-logo {
     gap: 263px;
@@ -180,9 +192,6 @@ button.shared-btn.tours-btn {
 /* --------------banner-section======================================= */
 .banner-item>h1 {
   font-size: 22px;
-  /* margin: 0 auto; */
-  /* width: 222px; */
-  /* margin: 0 auto; */
   margin-top: 20px;
 }
 .banner-item>p{
@@ -193,7 +202,6 @@ button.shared-btn.tours-btn {
   
 }
 .banner-section {
-  /* text-align: center; */
   margin: 0 auto;
 }
 .input-item {
@@ -202,10 +210,8 @@ button.shared-btn.tours-btn {
   margin-right: 0px;
   padding: 0 15px;
 }
-/* input */
 .banner-input {
   width: 287px;
-  /* height: 52px; */
   padding: 21px 0;
   margin: 0 auto;
 }
@@ -224,11 +230,9 @@ button.shared-btn.tours-btn {
   height: 40px;
   font-size: 14px;
 }
-
 /* =============================
        TOURS_SECTION
 ================================*/
-
 .tours-container {
   flex-direction: column;
   margin-top: 24px;
@@ -275,34 +279,12 @@ button.shared-btn.tours-btn {
   width: 335px;
   height: 175px;
 }
-.item1{
+.item1,.item2,.item3,.item4,.item5,.item6, .item7{
   width: 335px;
   height: 175px;
+  
 }
-.item2{
-  width: 335px;
-  height: 175px;
-}
-.item3{
-  width: 335px;
-  height: 175px;
-}
-.item4{
-  width: 335px;
-  height: 175px;
-}
-.item5{
-  width: 335px;
-  height: 175px;
-}
-.item6{
-  width: 335px;
-  height: 175px;
-}
-.item7{
-  width: 335px;
-  height: 175px;
-}
+
 .item1 {
   width: 335px;
   object-fit: cover;
@@ -312,41 +294,10 @@ button.shared-btn.tours-btn {
   align-items: center;
   color: #fff;
 }
-  .item1 {
+  .item1,.item2,.item3,.item4,.item5,.item6, .item7 {
       grid-column: 1/8;
-      /* width: 573px;
-    height: 300px; */
     }
-    .item2 {
-      grid-column: 1/8;
-      /* width: 573px;
-      height: 300px; */
-    }  
-    .item3 {
-      grid-column: 1/8;
-      /* width: 374px;
-      height: 286px; */
-    }
-    .item4 {
-      grid-column: 1/8;
-      /* width: 474px;
-      height: 286px; */
-    }
-    .item5 {
-      grid-column: 1/8;
-      /* width: 274px;
-      height: 286px; */
-    }
-    .item6 {
-      grid-column: 1/8;
-      /* width: 473px;
-    height: 300px; */
-    }
-    .item7 {
-      grid-column: 1/8;
-      /* width: 673px;
-    height: 300px; */
-    }
+
 /* =============================
       SERVICES_SECTION
 ================================*/
@@ -370,7 +321,6 @@ height: 48px;
   font-size: 14px;
  line-height: 24px;
 }
-
 /* =============================
       SERVICES_SECTION
 ================================*/
@@ -430,7 +380,7 @@ margin-top: 24px;
   margin-bottom: 10px;
 }
 /* =============================
-       PLACE_SECTION_SECTION
+       PLACE_SECTION
 ================================*/
 .contact-form {
   width: 335px;
@@ -546,10 +496,7 @@ span.travel-span.footer-span {
   font-size: 36px;
   margin: 0px 16px;
 }
-.horizontal {
-  width: 200px;
-  margin: 2px auto;
-}
+
 .horizontal {
   width: 200px;
   margin: 5px auto;
@@ -558,15 +505,15 @@ span.travel-span.footer-span {
 
 }
 
-
-
-
-
 @media screen and (max-width:390px){
   .container {
     padding: 0 1px;
 }
-
+/* navbar */
+.navbar-logo {
+  gap: 166px;
+  margin-bottom: 20px;
+}
 }
 
 

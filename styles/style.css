@@ -70,15 +70,22 @@ nav>ul>li>a:hover{
 .active:hover{
   color: black;
 }
-input:hover{
-  background-color:white;
+::selection{
+  color: #e45203;
+  transition: 1s;
 }
 /* =============================
          HEADER_SECTION
 ================================*/
 header {
-  margin-top: 53px;
+  margin-top: 50px;
 }
+
+/* nav-upper */
+.nav-upper-container{
+  display: none;
+}
+
 .navbar-logo {
   display: flex;
   gap: 10px;
@@ -168,7 +175,6 @@ nav > ul > li > a {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.3);
   width: 868px;
-  /* height: 52px; */
   padding: 24px;
   display: flex;
   justify-content: center;
@@ -209,7 +215,7 @@ nav > ul > li > a {
 .tours-text > p {
   color: rgba(19, 19, 24, 0.7);
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px; 
   margin: 10px 0;
 }
 .tours-text > ul {
@@ -264,85 +270,68 @@ nav > ul > li > a {
 .item7 {
   grid-column: 4/8;
 }
-.item1 {
-  /* background-image: url("../img/Rectangle\ 5.png"); */
-  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url("../img/Rectangle\ 5.png");
 
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 300px;
-  object-fit: cover;
+/* shared-item */
+.shared-item{
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
+  width: 100%;
+  border-radius: 16px;
 }
-.item2 {
+
+.item1 {
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url("../img/Rectangle\ 5.png") ;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item2{
 
   background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url("../img/Rectangle 8.png");
+  height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 300px;
-  object-fit: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
 }
 .item3 {
+
   background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url("../img/Rectangle 6.png");
+  height: 286px;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 286px;
-  object-fit: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
+
 }
 .item4 {
+
   background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url("../img/Rectangle 7.png");
+  height: 286px;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 286px;
-  object-fit: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
+
 }
 .item5 {
+
   background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url("../img/Rectangle 9.png");
+  height: 286px;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 286px;
-  object-fit: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
+
 }
 .item6 {
+
   background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url("../img/Rectangle 11.png");
+  height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 300px;
-  object-fit: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
 }
 .item7 {
+
   background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url("../img/Rectangle 10.png");
+  height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 300px;
-  object-fit: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
+
 }
 
 .item2 > img {
@@ -487,6 +476,9 @@ nav > ul > li > a {
   font-weight: 800;
   margin: 16px 0;
 }
+.discount-text > h2:hover{
+  color: #5a5a5d;
+}
 .discount-img-section2 {
 
   
@@ -622,11 +614,7 @@ nav > ul > li > a {
 .bonus-section {
   margin-top: 46px;
 }
-/* .card-container {
-  display: flex;
-  justify-content: space-between;
-  gap: 24px;
-} */
+
 .card-container {
   display: flex;
   justify-content: space-between;
@@ -641,15 +629,6 @@ nav > ul > li > a {
   transition: 1.5s;
   margin-top: 40px;
 }
-/* .card {
-  width: 300px;
-  background: rgb(241, 241, 241);
-  color: white;
-  padding: 20px;
-  text-align: center;
-  transition: 1.5s;
-  margin-top: 40px;
-} */
 .card:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -698,6 +677,12 @@ footer {
   margin:  36px;
   padding-bottom: 20px ;
 }
+.footer-icon > i:hover{
+  color:tomato;
+  transform:rotate3d(90deg);
+    transition:1s;
+    font-size:20px;
+  }
 .horizontal{
 width: 872px;
 margin: 0 auto;
